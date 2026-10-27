@@ -1,0 +1,20 @@
+{
+  "name": "event-ticket-verification",
+  "version": "1.0.0",
+  "description": "Serverless backend for event ticket issuance, QR/JWT generation, and gate verification",
+  "private": true,
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.600.0",
+    "@aws-sdk/client-secrets-manager": "^3.600.0",
+    "@aws-sdk/client-ses": "^3.600.0",
+    "@aws-sdk/lib-dynamodb": "^3.600.0",
+    "bcryptjs": "^3.0.3",
+    "jsonwebtoken": "^9.0.2",
+    "nodemailer": "^6.9.13",
+    "qrcode": "^1.5.3",
+    "razorpay": "^2.9.8"
+  }
+}

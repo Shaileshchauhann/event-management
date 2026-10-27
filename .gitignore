@@ -1,0 +1,20 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Environment files
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Build artifacts
+dist/
+**/dist/
+.aws-sam/
+samconfig.toml
+build/
+**/build/
+.dart_tool/
